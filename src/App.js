@@ -38,11 +38,6 @@ export default class App extends Component {
         label: 'Delete',
         icon:'pi pi-fw pi-trash',
         command: () => {this.delete()}
-      },
-      {
-        label: 'Find by name',
-        icon:'pi pi-fw pi-google',
-        command: () => {this.showFindByNameDialog()}
       }
     ];
     this.productService = new ProductService();
